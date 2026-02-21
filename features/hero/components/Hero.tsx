@@ -28,9 +28,6 @@ export function Hero() {
           <Link href="/contacto" className="btn-secondary hover-lift">
             CONTACTAME
           </Link>
-          <a href="/Dante-Chavez-CV.pdf" target="_blank" rel="noopener noreferrer" className="btn-secondary hover-lift">
-            VER CV
-          </a>
         </div>
 
         <div className="social-proof">

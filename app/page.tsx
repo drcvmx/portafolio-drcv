@@ -62,7 +62,7 @@ export default function HomePage() {
               <Link href="/contacto" className="btn-secondary hover-lift">
                 CONTACTAME
               </Link>
-              <a href="/Dante-Chavez-CV.pdf" target="_blank" rel="noopener noreferrer" className="btn-primary hover-lift" style={{ marginLeft: "10px" }}>
+              <a href="https://drive.google.com/file/d/1x-QA1zbvdwey_JNPpkVcRXGFfd1Wgb1M/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn-primary hover-lift" style={{ marginLeft: "10px" }}>
                 VER CV
               </a>
             </div>
