@@ -181,7 +181,7 @@ export default function ContactoPage() {
                 </svg>
               </div>
               <h3 className="contact-info-title">Ubicacion</h3>
-              <p className="contact-info-text">Ciudad de Mexico, Mexico</p>
+              <p className="contact-info-text">Toluca, Estado de México, Mexico</p>
             </div>
           </div>
         </div>
