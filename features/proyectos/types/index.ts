@@ -17,6 +17,7 @@ export interface IProject {
   featured: boolean
   year: number
   heroImage?: string
+  isMobileDesign?: boolean
 }
 
 export type TechStack =
@@ -52,5 +53,6 @@ export type TechStack =
   | "TanStack Query"
   | "shadcn-ui"
   | "Lucide React"
+  | "LocalStorage API (MockDB)"
 
 export type ProjectCategory = "Frontend" | "Backend" | "Full Stack" | "Mobile" | "API"

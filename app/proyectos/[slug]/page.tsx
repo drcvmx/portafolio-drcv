@@ -55,7 +55,7 @@ export default function ProjectDetailPage() {
           {/* Gallery */}
           <div className="project-gallery">
             {/* Main image */}
-            <div className="project-gallery-main">
+            <div className={`project-gallery-main ${project.isMobileDesign ? 'mobile-design' : ''}`}>
               <img
                 src={gallery[activeImg]}
                 alt={`${project.title} - imagen ${activeImg + 1}`}

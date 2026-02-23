@@ -2,6 +2,41 @@ import type { IProject } from "../types"
 
 export const projects: IProject[] = [
   {
+    id: "15",
+    slug: "go-kart-zen-loyalty",
+    title: "Go-Kart Zen Loyalty System",
+    description: "Sistema completo de gamificación y lealtad con panel de administración para gestión de recompensas y clientes.",
+    longDescription:
+      "Una impresionante solución frontend de control de lealtad impulsada por mecánicas de gamificación. Facilita la retención de clientes a través de un sistema de niveles VIP, membresías anuales y cupones de descuentos canjeables. El proyecto posee un módulo de simulación de base de datos con persistencia en LocalStorage para desplegar la demostración a máxima velocidad sin dependencia de backend. Incluye también un Terminal POS virtual para personalización de redenciones y registro de carreras en tiempo real.",
+    image: "/project_webp/battlekart/bk1.jpg",
+    images: [
+      "/project_webp/battlekart/bk1.jpg",
+      "/project_webp/battlekart/bk2.jpg",
+      "/project_webp/battlekart/bk3.jpg",
+      "/project_webp/battlekart/bk4.jpg",
+      "/project_webp/battlekart/bk5.jpg",
+      "/project_webp/battlekart/bk6.jpg",
+    ],
+    accentColor: "#EF4444",
+    techStack: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vite",
+      "Lucide React",
+      "Supabase",
+    ],
+    category: "Frontend",
+    links: {
+      live: "https://battlekarvip.drcv.site/",
+      github: "https://github.com/drcvmx/battlekart-drcv",
+      production: "https://battlekartvip.com/",
+    },
+    featured: true,
+    year: 2026,
+    isMobileDesign: true,
+  },
+  {
     id: "11",
     slug: "catalogo-alchemy",
     title: "Green Alchemy — Catálogo Digital",
@@ -100,6 +135,39 @@ export const projects: IProject[] = [
     featured: true,
     year: 2026,
     heroImage: "/hero/onevertical.jpg",
+  },
+  {
+    id: "14",
+    slug: "probin-real-estate-cms",
+    title: "Probin Real Estate CMS",
+    description: "Plataforma premium para la exhibición de desarrollos inmobiliarios y gestión integral interactiva de CRM.",
+    longDescription:
+      "Una solución frontend de alto nivel que combina un portal inmersivo para la presentación de múltiples proyectos inmobiliarios con un potente panel administrativo. Permite a los agentes gestionar leads, citas, perfiles de clientes, campañas y checklists de cierre operativo. Está impulsada por un MockDB basado en LocalStorage, garantizando demostraciones de ventas ultrarrápidas, persistencia de datos offline y una experiencia visual fluida sin dependencia de un backend tradicional.",
+    image: "/project_webp/probin/hero-probin-mobile.jpg",
+    images: [
+      "/project_webp/probin/probin1.png",
+      "/project_webp/probin/probin2.png",
+      "/project_webp/probin/probin3.png",
+      "/project_webp/probin/probin4.png",
+    ],
+    accentColor: "#3B82F6",
+    techStack: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Lucide React",
+      "Supabase",
+    ],
+    category: "Frontend",
+    links: {
+      live: "https://probin.drcv.site/",
+      github: "https://github.com/drcvmx/probin-for-dante",
+      production: "https://probinrealestate.com/",
+    },
+    featured: true,
+    year: 2026,
+    heroImage: "/project_webp/probin/hero-probin-mobile.jpg",
+    isMobileDesign: true,
   },
   {
     id: "1",

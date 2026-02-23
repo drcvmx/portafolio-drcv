@@ -21,8 +21,18 @@ const CategoryIcon = ({ category }: { category: string }) => (
 )
 
 export function HeroAccordion() {
-    // Filter only featured projects for the hero
-    const featuredProjects = projects.filter(p => p.featured)
+    // Hardcode specific projects for the hero in desired order
+    const heroSlugs = [
+        "go-kart-zen-loyalty",
+        "catalogo-alchemy",
+        "balazhi-stone",
+        "green-alchemy-sgi"
+    ]
+
+    // Map slugs to actual projects, filtering out any missing ones
+    const featuredProjects = heroSlugs
+        .map(slug => projects.find(p => p.slug === slug))
+        .filter(Boolean) as typeof projects
 
     // Use the first featured project's index as initial active state (usually index 0)
     const [activeIndex, setActiveIndex] = useState<number>(0)
