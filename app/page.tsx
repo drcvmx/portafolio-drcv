@@ -59,12 +59,14 @@ export default function HomePage() {
               <p className="about-description">
                 Si lo imaginas, lo puedo desarrollar. Mi semana se divide entre crear y a veces optimizar sistemas de software y mi otra gran pasión: jugar al fútbol todos los fines de semana.
               </p>
-              <Link href="/contacto" className="btn-secondary hover-lift">
-                CONTACTAME
-              </Link>
-              <a href="https://drive.google.com/file/d/1x-QA1zbvdwey_JNPpkVcRXGFfd1Wgb1M/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn-primary hover-lift" style={{ marginLeft: "10px" }}>
-                VER CV
-              </a>
+              <div className="cta-buttons">
+                <Link href="/contacto" className="btn-secondary hover-lift">
+                  CONTACTAME
+                </Link>
+                <a href="https://drive.google.com/file/d/1x-QA1zbvdwey_JNPpkVcRXGFfd1Wgb1M/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn-primary hover-lift">
+                  VER CV
+                </a>
+              </div>
             </div>
             <div className="about-image">
               <img
