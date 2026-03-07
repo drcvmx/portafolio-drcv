@@ -18,6 +18,7 @@ export interface IProject {
   year: number
   heroImage?: string
   isMobileDesign?: boolean
+  imagePosition?: string
 }
 
 export type TechStack =

@@ -15,7 +15,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
       <div className="project-card-image">
         {project.featured && <span className="project-badge featured">DESTACADO</span>}
         <span className="project-badge category">{project.category}</span>
-        <img src={project.image || "/placeholder.svg"} alt={project.title} />
+        <img src={project.image ?? "/placeholder.svg"} alt={project.title} />
       </div>
       <div className="project-card-content">
         <h3 className="project-card-title">{project.title}</h3>

@@ -3,9 +3,10 @@
 import { Navbar } from "@/components/shared/Navbar"
 import { Footer } from "@/components/shared/Footer"
 import { Hero } from "@/features/hero/components/Hero"
-import { TechMarquee } from "@/features/tech-stack/components/TechMarquee"
+import { TechImpact } from "@/features/tech-stack/components/TechImpact"
 import { ProjectGrid } from "@/features/proyectos/components/ProjectGrid"
 import { projects } from "@/features/proyectos/constants/projects"
+import { ServiciosSection } from "@/features/servicios/components/ServiciosSection"
 import Link from "next/link"
 
 export default function HomePage() {
@@ -15,6 +16,9 @@ export default function HomePage() {
       <Navbar />
       <Hero />
 
+      {/* Servicios Section */}
+      <ServiciosSection />
+
       {/* Tech Stack Section */}
       <section className="tech-section">
         <div className="container">
@@ -23,7 +27,7 @@ export default function HomePage() {
             <div className="section-line"></div>
           </div>
         </div>
-        <TechMarquee />
+        <TechImpact />
       </section>
 
       {/* Featured Projects Section */}
