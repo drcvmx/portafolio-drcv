@@ -67,7 +67,7 @@ export default function HomePage() {
                 <Link href="/contacto" className="btn-secondary hover-lift">
                   CONTACTAME
                 </Link>
-                <a href="https://drive.google.com/file/d/1x-QA1zbvdwey_JNPpkVcRXGFfd1Wgb1M/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn-primary hover-lift">
+                <a href="https://drive.google.com/file/d/1Dd9I8alHLB3Sr-pZh7OZsJH3ksWctE6O/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn-primary hover-lift">
                   VER CV
                 </a>
               </div>
